@@ -9,6 +9,10 @@ import StorePicker from './components/StorePicker';
 import Noisy from './components/Noisy';
 import JSXstuff from './components/JSXstuff';
 
+import "./css/style2.css";
+import AddCSS from './components/AddCSS';
+
+
 
 
 
@@ -16,3 +20,5 @@ import JSXstuff from './components/JSXstuff';
 render(<StorePicker />, document.querySelector('#main'));
 //render(<Noisy />, document.querySelector('#noiseDiv'));
 render(<JSXstuff />, document.querySelector('#JSXstuff'));
+
+render(<AddCSS />, document.querySelector('#AddCSS'));

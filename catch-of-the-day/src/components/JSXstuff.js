@@ -7,10 +7,10 @@ class JSXstuff extends React.Component{
 
 		//adding multiple elements and including javascript
 		return (
-			//adding multiple elements
+		
 			<React.Fragment>
 				<p className="yo">the first of 2</p>
-				{//adding javascript }
+				{/*adding javascript */ }
 		        <p>the second of 2 {100 + 300}</p>
 		    </React.Fragment>
 		   	) 
